@@ -19,7 +19,7 @@ How to use this repository
 
 # JS Basics
 
-| S No. | Topic     | Assignment                                | FreeCodeCamp Id | Question Done Till Now |
+| S No. | Topic     | Assignment                                | https://www.freecodecamp.org/chandra986 | Question Done Till Now |
 | ----- | --------- | ----------------------------------------- | --------------- | --------------- |
 | 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) |                 |                 |
 
