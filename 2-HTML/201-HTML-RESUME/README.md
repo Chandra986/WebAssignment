@@ -10,4 +10,4 @@ This is your assignment 1, where you have to make your resume
 - Create index.html file in ```./Resume``` folder
 - Create the above resume using HTML only
 - Host the Resume and provide the link in this README file 
-
+- https://chandra986.github.io/resume-making/
