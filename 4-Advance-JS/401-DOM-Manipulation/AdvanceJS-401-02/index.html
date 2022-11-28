@@ -5,8 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <div class="main">
+      <div class="first"></div> 
+      
+    </div>
+
+    <script>
+        var arr=['1st','2nd', '3rd', '4th','5th','6th','7th','8th','9th',
+        '10th','11th','12th','13th','14th','15th','16th','17th']
+         var c=0
+         for(let i=1; i<=17; i++){
+           if(i%2===0){
+            var ele=document.createElement('div')
+            ele.innerText= `${arr[c++]} child `
+            ele.style.width='100px'
+            ele.style.textAlign='center'
+            ele.style.border='1px solid black'
+            ele.style.borderRadius='2px'
+            ele.style.backgroundColor='lightgreen'
+            ele.style.padding='5px'
+            ele.style.color='white'
+
+            document.getElementsByClassName('main')[0].appendChild(ele)
+           }
+           
+           else if(i===1){
+              var ele=document.createElement('div')
+            ele.innerText= `${arr[c++]} child `
+            ele.style.width='100px'
+            ele.style.textAlign='center'
+            ele.style.border='1px solid black'
+            ele.style.borderRadius='2px'
+            ele.style.backgroundColor='blue'
+            ele.style.padding='5px'
+            ele.style.color='white'
+            document.getElementsByClassName('main')[0].appendChild(ele)
+
+            }
+            else if(i===9){
+              var ele=document.createElement('div')
+            ele.innerText= `${arr[c++]} child `
+            ele.style.width='100px'
+            ele.style.textAlign='center'
+            ele.style.border='1px solid black'
+            ele.style.borderRadius='2px'
+            ele.style.backgroundColor='green'
+            ele.style.padding='5px'
+            ele.style.color='white'
+            document.getElementsByClassName('main')[0].appendChild(ele)
+            }
+            else if(i===17){
+              var ele=document.createElement('div')
+            ele.innerText= `${arr[c++]} child `
+            ele.style.width='100px'
+            ele.style.textAlign='center'
+            ele.style.border='1px solid black'
+            ele.style.borderRadius='2px'
+            ele.style.backgroundColor='palevioletred '
+            ele.style.padding='5px'
+            ele.style.color='white'
+            document.getElementsByClassName('main')[0].appendChild(ele)
+            }
+            else{
+              var ele=document.createElement('div')
+            ele.innerText= `${arr[c++]} child `
+            ele.style.width='100px'
+            ele.style.textAlign='center'
+            ele.style.border='1px solid black'
+            ele.style.borderRadius='2px'
+            ele.style.padding='5px'
+            document.getElementsByClassName('main')[0].appendChild(ele)
+
+            }
+           
+           }
+         
+
+
+    </script>
+
+
+
   </body>
 </html>
