@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    color: green;
+    font-size: 60px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    font-size: large;
+}
+
+img {
+    width: 200px;
+}
