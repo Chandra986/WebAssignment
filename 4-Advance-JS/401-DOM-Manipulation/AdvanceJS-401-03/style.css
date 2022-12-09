@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    height: 100%;
+}
+
+img {
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+}
+
+i {
+    color: rgb(35, 158, 125);
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.fa-caret-left {
+    position: absolute;
+    left: 70px;
+}
+
+.fa-caret-right {
+    position: absolute;
+    right: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(93, 165, 189);
+    }
+
+    img {
+        height: 200px;
+        width: 400px;
+        object-fit: cover;
+    }
+}
