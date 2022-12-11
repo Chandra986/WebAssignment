@@ -4,39 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>solar_system</title>
-    <link href="./style.css" rel="stylesheet" />
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 id="heading">Calculate a weight of an object on a planet</h1>
-    <div id="input_container">
-      <input id="mass_input" type="text" />
-      <select id="planet_input">
-        <option value="0">--select-planet-</option>
-        <option value="1">Mercury</option>
-        <option value="2">Venus</option>
-        <option value="3">Earth</option>
-        <option value="4">Moon</option>
-        <option value="5">Mars</option>
-        <option value="6">Jupiter</option>
-        <option value="7">Saturn</option>
-        <option value="8">Uranus</option>
-        <option value="9">Neptune</option>
-        <option value="10">Pluto</option>
-      </select>
-      <button id="calculate_weight_button">Calculate Weight</button>
-    </div>
-    <div id="information-conatiner">
-      <img
-        id="planet_image"
-        src="https://raw.githubusercontent.com/geeksterin/WebCurriculum/master/Advance%20Js/Day-04/Project%20image/earth.png"
-        alt="planet"
-      />
-      <div id="weight_information_container">
-        <span>The weight of the object on <b>Earth</b></span>
-        <div id="weight_container"><h3>98.00 N</h3></div>
+    <header>
+      <h1> Calculate a weight of an object on a planet</h1>
+      <div class="input">
+        <input type="text" placeholder="Mass in kilogram">
+        <select id="mySelect" onchange="myFunction()">
+          <option value=""> --select planet-- </option>
+          <option value="3.7"> MERCURY </option>
+          <option value="8.87"> VENUS </option>
+          <option value="9.8"> EARTH </option>
+          <option value="1.62"> MOON </option>
+          <option value="3.7"> MARS </option>
+          <option value="24.79"> JUPITER </option>
+          <option value="10.44"> SATURN </option>
+          <option value="8.87"> URANUS </option>
+          <option value="11.15"> NEPTUNE </option>
+          <option value="0.62"> PLUTO </option>
+        </select>
+        <button>Calculate weight</button>
+    
+      </div>
+    </header>
+    <div class="planet">
+      <div class="image">
+        <img src="ProjectImage/earth.png">
       </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

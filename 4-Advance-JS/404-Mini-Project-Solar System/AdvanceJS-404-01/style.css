@@ -1,74 +1,146 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-  }
-  
-  body {
-    text-align: center;
-    background: url("https://raw.githubusercontent.com/geeksterin/WebCurriculum/master/Advance%20Js/Day-04/Project%20image/galaxy.gif");
-  }
-  
-  #heading {
-    margin-top: 32px;
-  }
-  
-  #input_container {
-    margin-top: 64px;
-  }
-  
-  #mass_input,
-  #planet_input,
-  #calculate_weight_button {
-    height: 32px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    margin-right: 8px;
-    padding: 0px 16px;
-  }
-  
-  #mass_input {
-    width: 250px;
-  }
-  
-  #planet_input {
-    width: 150px;
-  }
-  
-  #calculate_weight_button {
-    background-color: rgba(211, 211, 211, 0.648);
-  }
-  
-  #heading,
-  #calculate_weight_button,
-  #weight_information_container {
-    color: white;
-  }
-  
-  #information-conatiner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 64px;
-    margin-top: 64px;
-  }
-  
-  #weight_information_container {
-    background-color: rgba(211, 211, 211, 0.476);
-    padding: 16px 64px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 4px;
-  }
-  
-  #weight_container {
-    height: 96px;
-    width: 96px;
-    border-radius: 50%;
-    background-color: rgba(211, 211, 211, 0.191);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 16px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('ProjectImage/galaxy.gif');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  color: white;
+  margin-top: 20px;
+  text-shadow: 3px 0 #6b6baf;
+  font-size: 70px;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+input {
+  height: 45px;
+  width: 300px;
+  color: #6c6d6d;
+  font-size: large;
+  padding: 10px;
+}
+
+select {
+  width: 200px;
+  padding-left: 10px;
+  font-size: large;
+  border-radius: 5px;
+  color: #6c6d6d;
+}
+
+option {
+  color: black;
+}
+
+button {
+  width: 150px;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  background-color: #6c6d6d;
+}
+
+.planet {
+  height: 70vh;
+  width: 70vw;
+  background-color: #6c6d6d;
+  opacity: 0.4;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box {
+  height: 70vh;
+  width: 70vw;
+  background-color: #6c6d6d;
+  opacity: 0.4;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+img {
+  height: 99%;
+  width: 99%;
+
+}
+
+.image {}
+
+.weight {
+  height: 40%;
+  width: 50%;
+  background-color: gray;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+h2 {
+  color: greenyellow;
+  opacity: none;
+  font-size: 30px;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(203, 197, 197);
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 0, 21);
+}
+
+.smallBox,
+#smallBox {
+  height: 15%;
+  width: 70%;
+  background-color: #6c6d6d;
+  opacity: 0.4;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miniBox {
+  font-size: xx-large;
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+}
