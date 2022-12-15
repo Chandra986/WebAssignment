@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333 url(https://i.postimg.cc/P54kpMjx/food8.jpg) center center no-repeat;
+    background-size: cover;
+    color: #532827;
+
+}
+
+.content {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url(https://i.postimg.cc/sDNRp4HD/paper-pattern.jpg)top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form input {
+    width: 110px;
+}
+
+button {
+    background: #6c2726;
+    color: white;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+button:active {
+    position: relative;
+    top: 3px;
+}
+
+.total-tip {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.total-tip h2 {
+    font-size: 50px;
+    margin: 5px;
+}

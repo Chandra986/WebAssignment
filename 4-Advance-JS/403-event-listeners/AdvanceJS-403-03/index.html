@@ -4,9 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tip Counter</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    Start your code here
+    <div class="content">
+      <h1> Charles' Tip Calculator </h1>
+      <div class="calculator">
+        <form>
+          <label>
+            How much was your bill?<br>
+            $ <input class="bill" type="text"> <br>
+          </label>
+          <label>
+            How was your service?<br>
+            <select>
+              <option value="0">-- Choose an option --</option>
+              <option value="0.3">30% - Outstanding</option>
+              <option value="0.2">20% - Good</option>
+              <option value="0.15">15% - It was okay</option>
+              <option value="0.1">10% - Bad</option>
+              <option value="0.05">5% - Terrible</option>
+            </select>
+          </label>
+          <br>
+          <label>
+            How many people are sharing the bill?<br>
+            <input type="text"> people
+          </label><br>
+          <button type="button"> Calculate!</button>
+        </form>
+      </div>
+      <div class="total-tip">
+    
+      </div>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
