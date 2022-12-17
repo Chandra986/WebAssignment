@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 120px;
+    width: 99%;
+    text-align: center;
+    background-color: #eff1f2;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 10px -15px gray;
+}
+
+header h1 {
+    color: orange;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #525253;
+    font-size: 20px;
+}
+
+.content-1 {
+    text-align: center;
+    height: 90px;
+    background-color: #eff1f2;
+    box-shadow: gray 0px 7px 29px 0px;
+}
+
+.content-1 p {
+    margin: 10px;
+}
+
+button {
+    height: 33px;
+    width: 135px;
+    background-color: orange;
+    border: none;
+    margin: 10px;
+    transition: transform .1s ease;
+    border-radius: 3px;
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+.content-2 {
+    margin-top: 20px;
+    background-color: #eff1f2;
+    height: 65%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    box-shadow: gray 0px 7px 29px 0px;
+}
+
+.bigBox {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.bigBox_2 {
+    width: 100%;
+    padding-top: 15px;
+    display: none;
+}
+
+.content-2 p {
+    width: 80px;
+}
+
+
+.zero {
+    margin-left: 3%;
+}
+
+.zero-1 {
+    margin-left: 17%;
+}
+
+.zero-2 {
+    margin-left: 23%;
+}
+
+.zero-3 {
+    margin-left: 24%;
+}
+
+.zero-4 {
+    margin-left: 28%;
+}
+
+.zero-5,
+.zero-6 {
+    margin-left: 29%;
+}
+
+.zero-7 {
+    margin-left: 29.5%;
+}
+
+.zero-8 {
+    margin-left: 30%;
+}
+
+.zero-9 {
+    margin-left: 30.5%;
+}
+
+.box {
+    height: 4vh;
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.bar {
+    height: 4vh;
+    background-color: orange;
+    border-radius: 2px;
+}
+
+span {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
