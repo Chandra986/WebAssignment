@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#ff938e, #ffe1c6);
+}
+
+span {
+    color: #b30000;
+    font-weight: 900;
+}
+
+.content {
+    width: 38.7rem;
+    padding: 1.5rem;
+    background-color: #ffd3c6;
+    border-radius: 15px;
+    box-shadow: red 0px 10px 16px 1px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    margin: 1rem;
+    font-family: 'Kalam', cursive;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.tweet_box {
+    background-color: #66b3ff;
+    padding: 0.2rem 1.2rem 0.2rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+i {
+    color: white;
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    background: linear-gradient(red, #ffe1c6);
+    color: white;
+    border-radius: 5px;
+    padding: 0.6rem;
+    cursor: pointer;
+}
