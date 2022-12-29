@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #161e54;
+    color: white;
+}
+
+.main_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 11rem);
+}
+
+.container {
+    margin-top: 4rem;
+    width: 30%;
+}
+
+.input_button {
+    margin-top: 1.1rem;
+    position: relative;
+    width: 100%;
+}
+
+input {
+    width: 75%;
+    height: 3rem;
+    font-size: x-large;
+    padding: 1rem;
+    outline-color: #161e54;
+}
+
+button {
+    height: 3rem;
+    width: 18%;
+    background-color: #161e54;
+    color: white;
+    font-size: large;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 12.5%;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(var(--btn-focus-scale, .94));
+}
+
+p {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+    color: #505866;
+    font-size: large;
+    font-weight: bold;
+}
+
+audio {
+    margin-top: 2rem;
+    height: 3rem;
+}
+
+footer {
+    background-color: #161e54;
+}
+
+footer p {
+    color: white;
+    padding: 0.6rem;
+    font-weight: normal;
+}
+
+@media only screen and (max-width : 1050px) {
+    body {
+        background-color: skyblue;
+    }
+
+    h1 {
+        font-size: x-large;
+        width: 100%;
+    }
+
+    input {
+        width: 14rem;
+        border-radius: 10px;
+    }
+
+    button {
+        width: 6rem;
+        position: static;
+        border-radius: 10px;
+        margin-left: 0.4rem;
+    }
+
+    .input_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_container {
+        height: calc(100% - 10.5rem);
+    }
+
+    .container {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    #result_container {
+        padding: 0.5rem;
+    }
+}
