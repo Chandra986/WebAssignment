@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="409-01.css">
+   <script src="409-01.js" defer></script>
+
     <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+</head>
+<body>
+     <h1 class="text-center bg-dark text-white"> Validating Web Forms</h1>
+     <div class="container">
+        <form id="submit">
+            <div class="form-group">
+                <label >
+                    First name
+                </label>
+                <br>
+                <input type="text" name="" id="first_name" class="form-control">
+                <span id="firsterror" class="text-warning fw-bold"></span>
+            </div>
+            <div class="form-group">
+                <label >
+                    last name
+                </label>
+                <br>
+                <input type="text" name="" id="last_name" class="form-control">
+                <span id="lasterror" class="text-warning fw-bold"></span>
+            </div>
+             <div class="form-group">
+                <label >
+                   email
+                </label>
+                <br>
+                <input type="text" name="" id="email" class="form-control">
+                <span id="emailerror" class="text-warning fw-bold"></span>
+            </div>
+             <div class="form-group">
+                <label >
+                    password
+                </label>
+                <br>
+                <input type="password" name="" id="password" class="form-control">
+                <span id="passerror" class="text-warning fw-bold"></span>
+            </div>
+             <div class="form-group">
+                <label >
+                   telephone
+                </label>
+                <br>
+                <input type="text" name="" id="telephone" class="form-control">
+                <span id="telephoneerror" class="text-warning fw-bold"></span>
+            </div>
+            <br>
+            <input type="submit" name="" class="btn btn-primary" >
+        </form>
+     </div>
+    <script src="./sript.js"></script>
+</body>
 </html>
